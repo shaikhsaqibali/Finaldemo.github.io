@@ -1,0 +1,191 @@
+.slider-supercat{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top:70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	align-content: space-between;
+	justify-content: center;
+}
+
+.desktop p.slider-supercat-title{
+	font-family:'Akzidenz Grotesk', Arial, Helvetica, sans-serif !important;
+	background-color: #3F1D75;
+	padding: 10px 20px;
+	color: white;
+	line-height: 1em;
+	font-size: 5.5em;
+	letter-spacing: 0.01em;
+	max-width: 300px;
+    text-align: center;
+}
+
+.ticketbisHK p.slider-supercat-title{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+@media (min-width: 768px) { 
+	.desktop p.slider-supercat-title{
+		max-width: 1150px;
+	}
+}
+
+
+ul.cmigas{
+	padding-left: 7px !important;
+}
+
+.summary-social-links h1{
+	font-size: 1.4em !important;
+	padding-left: 5px !important;
+	padding-top: 15px !important;
+	line-height: 1.1em !important;
+} 
+
+.ticketbisJP .summary-social-links h1{
+	font-size: 1.2em !important;
+	padding-left: 5px !important;
+	padding-top: 15px !important;
+	line-height: 1.1em !important;
+} 
+
+
+
+#category-home .row-fluid:nth-child(4) h2{    
+	margin-top: 10px !important;
+}
+
+#category-home .row-fluid:nth-child(5) h2{    
+	margin-top: 10px !important;
+}
+
+.tab-content h2{    
+	font-size: 190% !important ;
+	padding-left: 7px !important ;
+	margin-top: 40px !important;
+}
+
+.ticketbisJP .tab-content h2{    
+	font-size: 170% !important ;
+	padding-left: 7px !important ;
+	margin-top: 40px !important;
+}
+
+.row-fluid [class*="span"]{
+	min-height: 0px !important;
+} 
+
+.descripcion{
+	margin-top: 40px;
+	padding: 0 7px;
+} 
+
+.descripcion h2 {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+hr{ 
+	border-top: 1px solid #f6f8f9 !important;
+	border-bottom: 1px solid #f6f8f9 !important;
+	margin: 0 !important;
+} 
+
+@media (max-width: 460px){
+	.featuredCategoriesList .featuredCategoriesList__item{
+		min-width: 140px !important;
+		max-width: 48%;
+	}
+
+}
+
+.featuredCategoriesList .featuredCategoriesList__item .item__event {
+	background-color: rgba(47, 52, 59, 0) !important;
+}
+
+.featuredCategoriesList .featuredCategoriesList__item .item__event .event__info {
+	text-shadow: 0px 0px 5px #000000, 0px 0px 5px #000000 !important;
+}
+
+
+
+.float-list{
+	padding: 0 4px;
+    margin: 10px 0 0 0;
+}
+
+.float-list li{
+	padding: 8px 20px;
+    border: 1px solid #B6C4D1;
+    margin: 0 15px 15px 0 !important;
+    border-radius: 40px;
+    background-color: #FFF;
+    color: #3F1D75;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.float-list li:hover{
+background-color: #3F1D75;
+}
+
+.float-list li:hover a{
+	color: #FFF !important;
+}
+
+.float-list a{
+	color: #3F1D75 !important;
+}
+
+@media (min-width: 768px) { 
+	.featuredCategoriesList .featuredCategoriesList__item .item__event .event__title{
+		font-size: 20px !important;
+		line-height: 24px !important;
+		max-height: 70px !important;
+		}
+
+	.ticketbisJP .featuredCategoriesList .featuredCategoriesList__item .item__event .event__title{
+		font-size: 16px !important;
+		line-height: 24px !important;
+		max-height: 70px !important;
+		}
+
+	.float-list li{
+		margin: 0 20px 20px 0 !important;
+		padding: 10px 25px;
+		font-size: 16px;
+		width: 31%;
+	}
+
+	.ticketbisJP .float-list li{
+		width: 48%;
+	}
+
+}
+
+.slider-supercat { height:250px; } 
+	#wrap > .container { margin-top:250px;} 
+    @media (min-width: 768px) {.slider-supercat { height:300px;}}
+    @media (min-width: 768px) { #wrap > .container { margin-top:300px;}}
+
+
+
+@font-face {
+	font-family: 'Akzidenz Grotesk';
+	src: url('https://static-docs.s3.amazonaws.com/css/design-team/01_SUPERCATS/FONTS/AkzidenzGroteskBQ-MdCnd.eot');
+	src: url('https://static-docs.s3.amazonaws.com/css/design-team/01_SUPERCATS/FONTS/AkzidenzGroteskBQ-MdCnd.eot?#iefix') format('embedded-opentype'),
+	    url('https://static-docs.s3.amazonaws.com/css/design-team/01_SUPERCATS/FONTS/AkzidenzGroteskBQ-MdCnd.woff2') format('woff2'),
+	    url('https://static-docs.s3.amazonaws.com/css/design-team/01_SUPERCATS/FONTS/AkzidenzGroteskBQ-MdCnd.woff') format('woff'),
+	    url('https://static-docs.s3.amazonaws.com/css/design-team/01_SUPERCATS/FONTS/AkzidenzGroteskBQ-MdCnd.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+ }

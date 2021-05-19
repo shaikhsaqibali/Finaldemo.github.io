@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en-AU" dir="ltr">
+
+<!-- Mirrored from www.stubhub.com.au/information/legal by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 May 2021 23:05:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <link rel="dns-prefetch" href="http://s3-eu-west-1.amazonaws.com/" /><link rel="dns-prefetch" href="http://www.google-analytics.com/" /><link rel="dns-prefetch" href="http://www.googletagmanager.com/" /><link rel="dns-prefetch" href="http://staticxx.facebook.com/" /><link rel="dns-prefetch" href="http://connect.facebook.net/" /><link rel="dns-prefetch" href="http://bat.bing.com/" /><link rel="dns-prefetch" href="http://was.stubhub.com/" /><link rel="dns-prefetch" href="http://bam.nr-data.net/" /><link rel="dns-prefetch" href="http://js-agent.newrelic.com/" /><link rel="dns-prefetch" href="http://cdn.optimizely.com/" /><link rel="dns-prefetch" href="http://sh-optimizely.s3.amazonaws.com/" /><link rel="dns-prefetch" href="http://llamamegratis.es/" /><link rel="dns-prefetch" href="http://ticketbis.inbenta.com/" />
+  
+  
+  
+  
+  
+  
+    <script type="text/javascript">
+    window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:22,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:9,2:8,3:6,4:10,5:3,6:23,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:9,2:8,3:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],6:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:23,2:24,ee:"QJf3ax",gos:"7eSDFh"}],7:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:24,2:23,ee:"QJf3ax"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:24,2:23,ee:"QJf3ax"}],9:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:24,2:23,ee:"QJf3ax"}],10:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:6,2:24,ee:"QJf3ax"}],11:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:12,3:10,4:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],12:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("https://www.stubhub.com.au/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],13:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:22,2:23,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:22,2:13,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],22:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],23:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],24:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:23,ee:"QJf3ax"}]},{},["G9z0Bl",4,11,5]);
+    ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"85f3540781",applicationID:"24705659",sa:1,agent:"js-agent.newrelic.com/nr-632.min.js"}
+    </script>
+  
+
+  <title>Terms of use | StubHub Australia</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+  <!-- ICONS -->
+  <link rel="shortcut icon" href='https://www.stubhub.com.au/assets/common/stubhub/favicon-af89b95590852784e17ea0d662ae16e2.ico' />
+  
+<link rel="icon" sizes="192x192" href="https://www.stubhub.com.au/assets/common/stubhub/icons/touch-icon-192x192-01c8320c9b939fc2c4721def9a0176e6.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.stubhub.com.au/assets/common/stubhub/icons/apple-touch-icon-180x180-precomposed-d2432fa028995bdf16b7fe013cc6e5ec.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.stubhub.com.au/assets/common/stubhub/icons/apple-touch-icon-152x152-precomposed-15bf96095a672643a2202616c291867a.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.stubhub.com.au/assets/common/stubhub/icons/apple-touch-icon-144x144-precomposed-b4db886f316728853596541b522ebf7d.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.stubhub.com.au/assets/common/stubhub/icons/apple-touch-icon-120x120-precomposed-be2e6c72555a0132b2e8247ff55746c1.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.stubhub.com.au/assets/common/stubhub/icons/apple-touch-icon-114x114-precomposed-33c448480cee1e4cc1e359cd00cc940f.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.stubhub.com.au/assets/common/stubhub/icons/apple-touch-icon-76x76-precomposed-e4f439ed285801618235bd0c6bb10341.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.stubhub.com.au/assets/common/stubhub/icons/apple-touch-icon-72x72-precomposed-0c044f6adc15b32a7b2710bcc93e7f2d.png">
+
+<link rel="apple-touch-icon-precomposed" href="https://www.stubhub.com.au/assets/common/stubhub/icons/apple-touch-icon-precomposed-206eea690228f2b1f535cabb68b0220c.png">
+
+  <!-- /ICONS -->
+  <link rel="stylesheet" href="https://www.stubhub.com.au/assets/desktop/stubhub_bundle-9e3c86be4203c41a77a9b6c9c9b24cbe.css"/>
+  
+  
+  <meta name="description" content="">
+  
+  <link rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/tb-it-assets/statics/css/static-styles.css" />
+  
+  
+  
+  <meta id="gtm-init-vars-json" data-value="{&quot;device&quot;:&quot;Desktop&quot;,&quot;user_logged&quot;:0,&quot;own_analytics_ua&quot;:&quot;UA-10595465-31&quot;,&quot;global_analytics_ua&quot;:&quot;UA-10595465-51&quot;,&quot;analytics_domain&quot;:&quot;stubhub.com.au&quot;,&quot;site_name&quot;:&quot;ticketbisAU&quot;,&quot;site_brand&quot;:&quot;StubHub&quot;,&quot;mixpanel_active&quot;:0,&quot;layout&quot;:&quot;stubhub&quot;,&quot;site_base&quot;:&quot;www.stubhub.com.au&quot;,&quot;domain_path&quot;:&quot;&quot;,&quot;env&quot;:&quot;PROD&quot;,&quot;adv&quot;:&quot;ALL&quot;,&quot;template&quot;:&quot;information&quot;}" data-controller="GtmEventCtrl"/>
+
+
+
+
+  
+  
+  <meta name="theme-color" content="#23034C">
+
+
+  <meta id="own_ua_id" content="UA-10595465-31">
+<meta id="own_ua_domain" content="stubhub.com.au">
+<meta id="global_ua_id" content="UA-10595465-51">
+<meta id="global_ua_domain" content="stubhub.com.au">
+
+  <script>var polyfills = {"picturefill":"/assets/javascripts/vendor/picturefill.min-f350acdff40c79c5389997f7a4b17acf.js"}</script>
+  <meta property="fb:app_id" content="176081989069467" />
+  
+    <script>//# sourceMappingURL=featuresConfig.js.map
+(function(c){var d={enable:function(a,b){if("undefined"===typeof window.enabledFeatures)return!1;"undefined"===typeof b&&(b=!0);window.enabledFeatures[a]=b;return!0},disable:function(a){if("undefined"===typeof window.enabledFeatures)return!1;delete window.enabledFeatures[a];return!0}};"undefined"!==typeof module&&module.exports?module.exports=d:"undefined"!==typeof c.document&&(c.featuresConfig=d)})(this);</script>
+    <script>var enabledFeatures = {"ui.ss":true,"ui.gap":true,"ui.urg_v2":{"variation":null,"md":null}}</script>
+    
+  <script src="http://cdn.optimizely.com/js/8908551648.js"></script>
+  
+  <script type="text/javascript" src="https://www.stubhub.com.au/assets/messages_en_AU-94a06a57a79830b31221a8956a3caae3.js" ></script>
+
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"504575",ustr:"",originlat:"0",clientrtt:"85",ghostip:"23.32.29.76",ipv6:false,pct:"10",clientip:"111.88.224.171",requestid:"1e7e0e37",region:"24408",protocol:"",blver:14,akM:"x",akN:"ae",akTT:"O",akTX:"1",akTI:"1e7e0e37",ai:"331819",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+<body class="ticketbis ticketbisAU en_AU stubhub information show  desktop no-consumer-seller-user user-logged-out  legal  ">
+  <!-- Google Tag Manager -->
+<script>
+var initVarsElement = document.getElementById('gtm-init-vars-json');
+if (initVarsElement){
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push(JSON.parse(initVarsElement.getAttribute('data-value')));
+}
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='http://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MB7XSP');
+</script>
+<!-- /Google Tag Manager -->
+
+  
+  <!--[if lt IE 7]>
+  <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">
+     Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">
+     install Google Chrome Frame</a> to experience this site.
+  </p>
+  <![endif]-->
+
+  
+  <!-- HEADER START -->
+<header class="navbar">
+    <div class="navbar-wrapper">
+                <div class="resale-msg">StubHub is the world's top destination for ticket buyers and resellers. Prices may be higher or lower than face value.</div>
+        <ul class="nav-list">
+            
+            
+                <li class="hamburger">
+    <div class="menu">
+        <a href="#" class="toogle-menu">
+            <i class="si si-menu"></i>
+            <i class="si si-fine-close-white"></i>
+        </a>
+    </div>
+</li>
+            
+            <!-- Logo -->
+<li class="logo ">
+  <a href="https://www.stubhub.com.au/" title="StubHub Australia">
+    <h1>
+      <img class="main-logo" src="https://s3-eu-west-1.amazonaws.com/tb-it-assets/logo/desktop/stubhub-logo-black.svg" alt="StubHub Australia" data-qa="logo">
+      
+    </h1>
+  </a>
+</li>
+
+            <!-- Search -->
+<li class="search">
+  <a href="#show-search" title="Search">
+    <i class="si si-search"></i>
+  </a>
+</li>
+
+            
+                 <!-- My Account Menu -->
+<li class="myaccount-menu">
+  <div class="parent-menu-item">
+    <a href="#login-modal" data-login-modal data-qa="button-identify">
+      <span class="user-name"
+            data-template-hello="Hi, {{name}}"
+            data-template-login="Login"
+            data-template-logout="Logout">
+        Login
+      </span>
+      <i class="si si-arrow-down-white"></i>
+    </a>
+  </div>
+  <ul class="sub-menu">
+    <li class="with-user-logged escape-option no-consumer-seller-user-option">
+      <a href="https://secure.stubhub.com.au/miCuenta/anuncios"
+         data-qa="menu-listings">
+        Listings
+      </a>
+    </li>
+    <li class="with-user-logged escape-option">
+      <a href="https://secure.stubhub.com.au/miCuenta/compras"
+         data-qa="menu-purchases">
+        Purchases
+      </a>
+    </li>
+    <li class="with-user-logged escape-option no-consumer-seller-user-option">
+      <a href="https://secure.stubhub.com.au/miCuenta/ventas"
+         data-qa="menu-sales">
+        Sales
+      </a>
+    </li>
+    <li class="with-user-logged escape-option no-consumer-seller-user-option">
+      <a href="https://secure.stubhub.com.au/miCuenta/pagos"
+         data-qa="menu-payments">
+        Payments
+      </a>
+    </li>
+    <li class="with-user-logged escape-option">
+      <a href="https://secure.stubhub.com.au/miCuenta/infocuenta"
+         data-qa="menu-account-info">
+        Account information
+      </a>
+    </li>
+    <li class="with-user-logged escape-option">
+      <a href="https://secure.stubhub.com.au/miCuenta/direcciones"
+         data-qa="menu-addresses">
+        Addresses
+      </a>
+    </li>
+    <li class="with-user-logged">
+      <a href="javascript:void(0)" data-logout-action rel="nofollow" data-qa="menu-logout">
+        Logout
+      </a>
+    </li>
+  </ul>
+</li>
+
+            
+            <!-- Category Menu -->
+<li class="category-menu ">
+  <div class="parent-menu-item">
+    <a href="javascript:void(0);">
+      <span>Search events</span>
+      <i class="si si-arrow-down-white"></i>
+    </a>
+  </div>
+  <ul class="sub-menu">
+    <!-- EXTERNAL CONTENT -->
+    <ul class="main-menu pull-left">
+	<li><span class="sub-menu"><a href="https://www.stubhub.com.au/"><i class="fa fa-bars fa-lg"></i></a></span>
+		<ul>				    
+			<li><span class="sub-menu"><a href="https://www.stubhub.com.au/sports-tickets/ca1" title="Sports Tickets">Sports Tickets</a></span>
+				<ul>
+                  	<li><span class="sub-menu"><a href="https://www.stubhub.com.au/australian-tennis-tickets/ca1329" title="Australian Tennis Tickets">Australian Tennis Tickets</a></span></li>
+                    <li><span class="sub-menu"><a href="https://www.stubhub.com.au/socceroos-tickets/ca5840" title="Socceroos Tickets">Socceroos Tickets</a></span></li>
+                    <li><span class="sub-menu"><a href="https://www.stubhub.com.au/rugby-tickets/ca1001" title="Rugby Tickets">Rugby Tickets </a></span></li>
+                    <li><span class="sub-menu"><a href="https://www.stubhub.com.au/australia-national-cricket-team-tickets/ca6174" title="Australia Cricket Tickets">Australia Cricket Tickets</a></span></li>
+                    <li><span class="sub-menu"><a href="https://www.stubhub.com.au/sports-tickets/ca1" title="More Sports Tickets">More Sports Tickets</a></span></li>
+				</ul>
+			</li>
+			<li><span class="sub-menu"><a href="https://www.stubhub.com.au/music-tickets/ca2" title="Music Tickets">Music Tickets</a></span>		
+				<ul>
+                    <li><a href="https://www.stubhub.com.au/guns-n-roses-tickets/ca282" title="Guns N' Roses Tickets">Guns N' Roses Tickets</a></li>
+					<li><a href="https://www.stubhub.com.au/tim-minchin-tickets/ca8608" title="Tim Minchin Tickets">Tim Minchin Tickets</a></li>
+                    <li><a href="https://www.stubhub.com.au/backstreet-boys-tickets/ca101" title="Backstreet Boys Tickets">Backstreet Boys Tickets</a></li>
+                    <li><a href="https://www.stubhub.com.au/keith-urban-tickets/ca6431" title="Keith Urban Tickets">Keith Urban Tickets</a></li>
+                    <li><a href="https://www.stubhub.com.au/festivals-tickets/ca79" title="Festival Tickets">Festival Tickets</a></li>
+                  	<li><a href="https://www.stubhub.com.au/music-tickets/ca2" title="More Music Tickets">More Music Tickets</a></li>
+				</ul>
+			</li>
+        
+    	<li><span class="sub-menu"><a href="https://www.stubhub.com.au/arts-and-theatre-tickets/ca4" title="Arts and Theatre Tickets">Arts and Theatre Tickets</a></span>
+    			<ul>
+	    			 <li><a href="https://www.stubhub.com.au/hamilton-sydney-tickets/ca93978" title="Hamilton Sydney Tickets">Hamilton Sydney Tickets</a></li>	
+                  <li><a href="https://www.stubhub.com.au/children-s-theatre-tickets/ca262" title="Children's Theatre Tickets">Children's Theatre Tickets</a></li>
+					<li><a href="https://www.stubhub.com.au/comedy-tickets/ca543" title="Comedy Tickets">Comedy Tickets</a></li>
+    				<li><a href="https://www.stubhub.com.au/magic-and-circus-tickets/ca309" title="Magic and Circus Tickets">Magic and Circus Tickets</a></li>
+					<li><a href="https://www.stubhub.com.au/musical-tickets/ca223" title="Musical Tickets">Musical Tickets</a></li>
+                  	<li><a href="https://www.stubhub.com.au/arts-and-theatre-tickets/ca4" title="More Theatre Tickets">More Theatre Tickets</a></li>
+    			</ul>
+          </li>
+ <li><span class="sub-menu">Search by city (domestic) »</span>
+        <ul>
+          <li><a href="https://www.stubhub.com.au/brisbane-tickets/ct698" title="Events in Brisbane">Brisbane</a></li>
+          <li><a href="https://www.stubhub.com.au/melbourne-tickets/ct8495" title="Events in Melbourne">Melbourne</a></li>
+          <li><a href="https://www.stubhub.com.au/perth-tickets/ct3406" title="Events in Perth">Perth</a></li>
+          <li><a href="https://www.stubhub.com.au/sydney-tickets/ct4538" title="Events in Sydney">Sydney</a></li>
+        </ul>
+     </li>
+ <li><span class="sub-menu">Search by city (international) »</span>
+        <ul>
+          <li><a href="https://www.stubhub.com.au/city/new-york" title="Events in New York">New York</a></li>
+          <li><a href="https://www.stubhub.com.au/city/los-angeles" title="Events in Los Angeles">Los Angeles</a></li>
+          <li><a href="https://www.stubhub.com.au/city/san-francisco" title="Events in San Francisco">San Francisco</a></li>
+        </ul>
+     </li>
+    </ul>
+  </li>  
+</ul>
+    <!-- /EXTERNAL CONTENT -->
+  </ul>
+</li>
+
+            <!-- Search Box -->
+<li class="searchbox">
+  <form action="https://www.stubhub.com.au/search/index"
+      class="silk-form search-buy"
+      data-controller="SearchCtrl"
+      data-remote="https://www.stubhub.com.au/search/data"
+      data-location-subtitle="Upcoming Events"
+      data-evcount="5"
+      data-cacount="5"
+      data-actiontype="buy">
+  <fieldset>
+    <div class="field-group">
+      <div class="field">
+        <input class="normal-padding" placeholder="Event, artist or team" type="search"
+               maxlength="255" id="q" value="" name="q" />
+        <button type="submit" class="button continueButton">
+          <i class="si si-search"></i>
+          <i class="si si-search-white"></i>
+        </button>
+      </div>
+      <a href="#close" class="close">&nbsp;</a>
+    </div>
+  </fieldset>
+</form>
+
+<script id="item-suggestion-template" type="x-tmpl-mustache">
+  <div class="suggestion-wrapper {{type}}"
+       data-url="{{url}}"
+       data-id="{{itemId}}"
+       data-type="{{type}}">
+       {{#isCity}}
+         <i class="fa fa-map-marker"></i>
+       {{/isCity}}
+       {{value}}
+       <span class="suggestion-info">{{info}}</span>
+  </div>
+</script>
+
+<script id="suggestion-footer-template" type="x-tmpl-mustache">
+  <div class="seemore">
+    <a href="{{ actionURL }}">See all</a>
+  </div>
+</script>
+
+<script id="suggestion-redirect-link-template" type="x-tmpl-mustache">
+  <a href="{{url}}"
+     style="display: none;"
+     id="suggestion-redirect-link"
+     data-modal-redirect-element="#modal-stubhub-{{type}}"
+     data-modal-redirect="{{url}}">
+     {{value}}
+  </a>
+</script>
+
+
+
+</li>
+
+            <!-- Inbenta -->
+<li class="inbenta">
+  <a href="#" title="Online help" data-inbenta="open">
+    <i class="si si-inbenta"></i>
+  </a>
+</li>
+
+            <!-- Trust Menu -->
+<li class="trust-menu">
+  <div class="parent-menu-item">
+    <a href="javascript:void(0)">
+      <span>Confidence and security</span>
+      <i class="si si-arrow-down-white"></i>
+    </a>
+  </div>
+  <ul class="sub-menu">
+    
+
+  <li>
+    <a href="#" data-inbenta="open">Online help</a>
+  </li>
+
+
+
+
+  <li>
+    <a href="https://www.stubhub.com.au/information/about-us" class="sub-menu">
+      About us
+    </a>
+  </li>
+
+
+
+  <li>
+    <a href="https://www.stubhub.com.au/information/faq" class="sub-menu">
+      Frequently Asked Questions
+    </a>
+  </li>
+
+
+
+  </ul>
+</li>
+
+            
+            <!-- Actions -->
+<li class="actions">
+  
+    <!-- Sell Tickets -->
+    <div class="sell-tickets">
+      <a href="https://www.stubhub.com.au/sellers" target="_self" class="sellButton">
+        Sell <span>tickets</span>
+      </a>
+    </div>
+  
+  <!-- Sign In -->
+  <div class="sign-in with-user-not-logged">
+    <a href="#login-modal" class="whiteButton">
+      <i class="si si-user-white"></i> Login
+    </a>
+  </div>
+</li>
+
+        </ul>
+    </div>
+</header>
+<!-- HEADER END -->
+
+<div id="login-modal"
+     class="silk-modal modal-login with-user-not-logged"
+     data-reload="false">
+  <a href="#/" class="modal-veil"></a>
+
+  <div class="dialog">
+    <div class="modal-header">
+      <a href="#/" class="si si-fine-close"></a>
+      <h2>Login</h2>
+    </div>
+
+    <div class="modal-body">
+      
+        <div class="social-login text-center">
+          <ul class="list-unstyled">
+            
+            
+              <li>
+                <button class="facebook-btn button" type="button" data-login-provider="facebook" data-gtm="link-fb" data-xo-login-variation="modal">
+                  <i class="si si-facebook"></i>
+                  Sign in with Facebook
+                </button>
+              </li>
+            
+            
+          </ul>
+        </div>
+
+        <div class="divider"><span>O</span></div>
+      
+
+      <div class="login-form-container">
+        <!-- Cross Domain Communication Frame -->
+        <iframe name="remote-login"
+                id="remote-login"
+                frameborder="0"
+                allowtransparency="true"
+                allowfullscreen="true"
+                scrolling="no"
+                aria-hidden="true"
+                title="Cross Domain Communication Frame"
+                style="border: none;"></iframe>
+        <!-- /Cross Domain Communication Frame -->
+        <form action="https://secure.stubhub.com.au/login/login?urlReturn=https%3A%2F%2Fwww.stubhub.com.au%2Flogin%2Fcallback" method="post" class="silk-form" name="login-login" target="remote-login" data-xo-login-variation="header" data-use-ajax="false" data-remote="https://secure.stubhub.com.au/login/loginUser" data-remote-logout="https://secure.stubhub.com.au/login/logout" data-error-generic="Invalid user or password" id="login-login" >
+          <fieldset>
+            <div class="field-group">
+              <div class="field">
+                <input name="login"
+                       type="email"
+                       id="login-login-email"
+                       value=""
+                       maxlength="255"
+                       data-msg="A valid e-mail is required"
+                       required="required">
+                <label for="login-login-email">
+                  E-mail
+                </label>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <div class="field hide-Show-Password-wrapper">
+                <input name="password"
+                       type="password"
+                       id="login-login-password"
+                       value=""
+                       class="hide-Show-Password-Field"
+                       data-msg="A valid password is required"
+                       required="required">
+                <label for="login-login-password">
+                  Password
+                </label>
+                <button type="button" role="button"
+                        class="hide-Show-Password-toggle hide-Show-Password-toggle-Show"></button>
+              </div>
+            </div>
+
+            
+            <span class="group-error">
+              <span class="msg" id="login-error-msg" style="display:none"></span>
+            </span>
+            
+
+            <button type="submit" class="button continueButton">
+              Login
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <p>
+        <a href="https://secure.stubhub.com.au/login/index#rememberpassword">
+          Forgot my password
+        </a>
+      </p>
+
+      <p>
+        Don't have an account?
+        <a href="https://secure.stubhub.com.au/login/registro">
+          Register
+        </a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+  
+
+  <div id="wrap">
+    
+  
+  <div class="container">
+    ﻿<h1>Terms and Conditions</h1>
+<p><strong>Last Updated: July 1, 2019</strong></p>
+
+<p>These Terms and Conditions ("Terms and Conditions") regulate the use of the Website.</p>
+<p>Likewise, this document regulates the steps and procedures that must take place in the transaction process of the passing of ownership between Buyers and Sellers.</p>
+<p>With the use of the Services provided by this Website, one assumes the position of "Website User" (hereinafter, the "User"), which implies the full acceptance, without any reservation, of each and every one of the rules and regulations included in the "Terms and Conditions" that is published by StubHub, in the precise moment that the User accesses the Website. </p>
+<p>The use of certain Services offered to Users through the Website are subject to certain conditions of use (hereinafter "Particular Conditions") which in some cases may substitute, complete and/or modify the present Terms and Conditions.</p>
+<p>Therefore, the User must also carefully read the corresponding Particular Conditions prior to use of said Services. Furthermore, the use of the Website is regulated by all notices, regulations of use and instructions that have been provided to the User by StubHub which may substitute, complete, and/or modify these Terms and Conditions. </p>
+<p>StubHub reserves the right to modify the stipulations of these Terms and Conditions. In this case, StubHub will notify the registered Users beforehand regarding any modification that might be made in the Terms and Conditions and shall replace the previous version of the Terms and Conditions Website. The subsequent use of any Services by the User after modification of the Terms and Conditions implies the acceptance, without a doubt, of the modified Terms and Conditions. In the case of the User not accepting the modified Terms and Conditions, the contract can be terminated by not being able to use the Services offered by the site or by closing the account the User may have open. </p>
+<p>Mere access to the Website and browsing through its contents are free of charge. The utilization of the Services provided by StubHub by the User is subject to fees as determined in these Terms and Conditions. </p>
+<p>The User recognises and accepts that the information included in reference to the specifications of Services provided, as well as the general conditions and finalisation of the contract, is adequate for the exclusion of any error in the formation of consent. However, StubHub will inform the User of any adjustments in technical specification of Services, or of the contractual relationship, that has been formally requested. </p>
+
+<h2>Particular conditions of Ticket exchange</h2>
+<p>StubHub, through the Website, provides a mediation Service to their Users for the transaction of titles (hereinafter, "the Service") as well as other additional ancillary Services as referred to in the present Terms and Conditions (hereinafter, jointly "the Services") amongst the legitimate holder of any title/value which allows access to an event or public spectacle (hereinafter, "Ticket"), who is willing and authorized to cede them to a third party gratuitously or for a payment (hereinafter, and for descriptive purposes only, "Sellers") and, those interested in being the beneficiary or Buyer of these Tickets (hereinafter, and for descriptive purposes only, "Buyers").</p> 
+<p>StubHub, is neither the legal holder, owner, or possessor of any of the Tickets referred to in the prior paragraph, nor does it cede, donate, sell, buy them or transfer any property or possession of them, limiting itself to solely providing the Users with a portal, facilitating and guaranteeing the correct development and economic management of the transactions of the cited Tickets. StubHub does not share the legal property of the Tickets between Users (Seller and Buyer). </p>
+<p>StubHub, within its Service, solely provides a platform to facilitate the transactions amongst Buyers and Sellers and, therefore, cannot guarantee that this will be done effectively, leaving the actual operation of the transactions to the free will of the Users. With the acceptance of the present Terms and Conditions, Users shall exempt StubHub, of any responsibility, not strictly imposed by law, derived from the transactions that are carried out, or attempted to be carried out, on the Website.</p>
+<p>StubHub does not control nor guarantee the authenticity or the accuracy of the Seller's ads nor the capacity of the Seller to sell the Tickets. These Users are obliged to provide correct, complete and exact information of the published Tickets. </p>
+<p>The offered Service is the object of an intermediation contract between the Users and StubHub, which is finalised upon the acceptance of the provided Terms and Conditions. This contract of intermediation bilaterally binds the Users of the Service with StubHub, regardless of the contractual relationship that is established between the Buyers and the Sellers. </p>
+
+<h2>1. User registry</h2>
+<h3>1.1. Obligation:</h3>
+<p>The use of the Website requires the previous subscription or registration of the User on the Website. The registration process involves the acceptance of the present Terms and Conditions by the User. </p>
+
+<h3>1.2. Requirements:</h3>
+<p>Registration requires that the User is of legal age, and holds full legal and behavioural capacity, providing the information that StubHub solicits in the registration form. This information will be treated as stated in the StubHub Policy of Privacy and Protection of Data, which can be consulted here:  <a href="https://www.stubhub.com.au/information/privacidad">Privacy Policy</a></p>
+
+<h3>1.3. Required Data:</h3>
+<p>In order to carry out registration, the User must provide StubHub with their full name, e-mail address, as well as their mobile phone number. </p>
+
+<h3>1.4. Name of the User and access code:</h3>
+<p>Once the User completes the registration form for access to the Service, they will be assigned a User ID, which will coincide with the e-mail address provided in the registration form, and a password for personal access that the User will subsequently be able to modify. The responsibility of custody and security of the User ID and password lies upon the User, who assumes responsibility of all of the transactions that are carried out in virtue under their User ID and password. </p>
+
+<h3>1.5. Accuracy of Information:</h3>
+<p>All of the information indicated by the User throughout the procedure of registration must be authentic, exact and complete. To this effect, the User guarantees the authenticity of all data that it communicates in consequence of completing the forms necessary for the subscription of the Services. The User will also be responsible for the maintenance of all information provided to StubHub, always keeping it updated in a way that corresponds, in every moment, to the current situation of the User. In all cases, the User will have sole responsibility for any false or inexact information indicated and any harm, of any sort, to StubHub or to third parties caused by this false or inexact information.</p> 
+
+<h2>2. Contracting Entity</h2>
+<p>2.1 If you purchase or sell on our Website Tickets to an event that is located:</p>
+<p>2.1.1. in the United States, you are contracting with StubHub, Inc. (including its affiliate Last Minute Transactions, Inc. (operator of Last Minute Services)), 199 Fremont Street, San Francisco, CA 94105.</p>
+<p>2.1.2. in Canada, you are contracting with StubHub Canada Ltd., WeWork, 240 Richmond Street West, Suite 4-113, Toronto, Ontario, Canada M5V 1V6.</p>
+<p>2.1.3. in the United Kingdom, you are contracting with StubHub (UK) Limited, 1 More London Place, London, United Kingdom, SE1 2AF.</p>
+<p>2.1.4. In Mexico, you are contracting with EVANDTI, S.A. de C.V., Avenida Insurgentes Sur 253, piso 3, Colonia Roma Norte, Delegación Cuauhtemoc, 06700, Ciudad de México, México.</p>
+<p>2.1.5. In Japan, you are contracting with Ticket Experience, Co. Ltd., Level 15, Cerulean Tower, 26-1 Sakuragaoka-cho, Shibuya-ku, Tokyo, Japan 150-8512.</p>
+<p>2.1.6. In South Korea, you are contracting with Ticket Experience, Inc.; The Executive Centre, Level, Two IFC, 10 Gukjegeumyung-ro, Yeoungdeungpo-gu, Seoul, 07326 South Korea.</p>
+<p>2.1.7. Anywhere else in the world, you are contracting with Ticketbis S.L., a company registered in the Mercantile Registry of Vizcaya, page nº BI-5766, volume 5184, sheet 69, with registered address at Calle Uribitarte nº6, 48011 Bilbao, Vizcaya, Spain, VAT number ES B95630034.</p>
+<p>2.2. The contracting entity will hereinafter be referred to as "StubHub", "we", "us", or "our".</p>
+<p>2.3. Evandti AR, S.A. is the entity that handles any and all payments and payouts on our Argentinian Site. Accordingly, if you buy and/or sell Tickets on our Argentinian Site you are, solely in respect of such payment activities, contracting with Evandti AR, S.A., in addition to contracting with Ticketbis S.L. </p>
+<p>2.4. Eventbis Brasil-Tecnologia para Eventos e Tickets, Ltda. is the entity that handles any and all payments and payouts on our Brazilian Site. Accordingly, if you buy and/or sell Tickets on our Brazilian Site you are, solely in respect of such payment activities, contracting with Eventbis Brasil-Tecnologia para Eventos e Tickets, Ltda., in addition to contracting with Ticketbis S.L. </p>
+
+
+<h2>3. Sale of tickets.</h2>
+<h3>3.1. Information of the Ticket.</h3>
+<p>Once registered, the User that is interested in offering a Ticket will publish it on the Website completing in a detailed, authentic and accurate way the fields included in the sell-flow. Subject to Section 3.10, it is mandatory to give at least the following information amongst others: the name of the event for which the Tickets are being offered, the date of the event, the Ticket type being offered, possible restrictions of the offered Ticket and the desired price for the exchange (an "Offer"). </p>
+<p>The Seller is also obligated to indicate a credit/debit card number of which the expiration date must be after the date of the event for which the Tickets are being offered, and the desired payment method, so that StubHub can transfer, in the case of a purchase of the tickets offered, the amount due from the transaction. The available forms of payment are those stated in the selling form on the Website. </p>
+
+<h3>3.2. Publication of the Offer.</h3>
+<p>The publications made by the User on the Website gives StubHub and, in certain cases, associated and/or participating companies, the non-exclusive right to publish and exhibit the entered data on further websites that belong to the holders. With its publication, the User is obligated to accept and complete the transactions specified within the Terms and Conditions of StubHub. </p>
+<p>The publication of an Offer on the Website also implies the formalization of the work order agreement and the beginning of the Service provided to the Seller by StubHub. Upon the acceptance the Offer by the Buyer, this Service earns fees, and in the case of non-compliance of the contract terms StubHub shall receive compensation. </p>
+<p>This Service will yield commissions, and if necessary, economic penalisation for non-compliance in favour of StubHub, once the Buyer has accepted the Offer. Additionally, StubHub has the right to claim loss and damages when appropriate. </p>
+
+<h3>3.3. Term of validity and applicability of published Offers.</h3>
+<p>On general terms, the validity of the offered Tickets will be determined by the date of the event of which the Tickets are concerning. Any Offer that is not subject to the "Last Minute Program" system of Tickets published by the Sellers can be valid up until 3 working days prior to the expected date of the event to which the Ticket is offering access to. </p>
+<p>However, in certain cases, the term of validity of Offers may vary in accordance with certain circumstances or situations that are outside of the control of StubHub. In such a case, StubHub will inform the Users of any modification of the term of validity of the Offers as soon as it has effective proof of those circumstances. </p>
+
+<h3>3.4. Publication Free of Charge.</h3>
+<p>The publication of the Offer is free of charge for the Seller. The percentage fee will only be charged by StubHub in the case of the effective transfer of the Ticket offered, excluding the economic penalisation for non-compliance of the Seller that is determined in section 3.11. </p>
+
+<h3>3.5. Credit/Debit Card.</h3>
+<p>At the moment of publishing the Offer, the Seller must facilitate StubHub with a valid credit or debit card number which expires at a date that is subsequent to the event in question. Upon providing this card, the User deliberately authorises StubHub to carry out the charges or debits that may result from the transaction of Tickets and the Services rendered by StubHub in accordance with the present Terms and Conditions.</p>
+
+<h3>3.6. Taxes associated with the transaction of Tickets.</h3>
+<p>If the Tickets are subject to duties or taxes, it is the responsibility of the Sellers to determine their kind and amount so as to include them in the final cession price. These duties or taxes are independent from the Value Added Tax (VAT), if applicable, that is levied upon the Services rendered by StubHub to the Users. </p>
+
+<h3>3.7. Determination of the price of the Offer made by the Seller.</h3>
+<p>The publication of the Offer by the Seller under the present Terms and Conditions will include the price that the Seller expects to obtain from the transaction. To this effect, the Seller will include the amount desired from the transaction in the selling form provided by the Website. Determination of the price is the sole responsibility of the Seller and StubHub will take no part in this determination, having no influence whatsoever in the determination of offered prices. </p>
+<p>In consequence, the price will be set freely by the Seller who must bear in mind the stipulations of paragraph 3.6 regarding taxes associated with the transaction, the fee of the Service offered by StubHub in accordance with paragraph 3.8, and the state law requirements referred to in paragraph 3.10. The Seller may, at any time until the acceptance of their Offer by a Buyer, modify the desired price offered for the transaction. </p>
+
+<h3>3.8. Cost of the Service to Offer Tickets.</h3>
+<p>The use of the Website by a Seller to make Offers accrues the cost of the Service in favour of StubHub for all transactions effectively carried out through the Website. This cost of the Services rendered by StubHub will be determined in the following fashion: </p>
+	<ul>
+		<li>A percentage will be accrued from the price or liquid amount that the Seller desires to obtain from the transaction made. This percentage of the commission constitutes the fee of Services rendered by StubHub. You can find the final percentage of the said commission in the following link: <a href="https://www.stubhub.com.au/information/commissions">https://www.stubhub.com.au/information/commissions</a></li>
+		<li>The resulting amount will be imposed the Value Added Tax (VAT), if applicable in force at the time of the transaction. </li>
+		<li>The final cost of the Service will be the sum both of the previously mentioned amounts. </li>
+	</ul>
+	
+<h3>3.9. Linking the Seller to an accepted Offer.</h3>
+<p>Once StubHub has sent the first email to the Seller informing them that, depending on the case, the sale is pending or confirmed, the Offer cannot be withdrawn or modified, and the Seller must save the Tickets at the disposal of the Buyer. Once a transaction on an Offer is accepted by the Buyer StubHub will send an email confirming the sale and the Seller must carry out the transaction in a manner that the Buyer may make effective use of the acquired Tickets.  </p>
+<p>All sales are final. StubHub will not be held responsible for the conditions of the events taking place, any possible change of venue, scheduling, line-up, or any cancellation of the event that might occur. If the situations detailed in the previous paragraph were to take place, cancellation of payments due from the completion of transactions will only be done by discretion of StubHub. </p>
+
+<h3>3.10 Compliance with state laws</h3>
+<p>Many states in Australia regulate the resale of tickets. The sale of tickets which is in breach of those laws is prohibited on our platform. By using our services, You agree that your listing and transaction is compliant with all laws. For further information about the laws in each state please see the section on <a href="https://www.stubhub.com.au/information/ticket-restrictions">Additional Information on State Restrictions</a>. </p>
+<h3>3.11. Non-compliance by the Seller. Penalisations:</h3>
+<p>StubHub will apply economic penalties in the form of financial charges to Sellers of transactions which are not successfully completed due to error or non-compliance by the Seller of the Tickets. These charges reflect the costs incurred by StubHub for the resolution of requests which have not been duly completed. StubHub also reserves the right to close the account of any Seller if the Seller repeatedly commits error or non-compliance. Said penalties will be imposed on the Seller under the following circumstances:</p> 
+	<ul>
+		<li>a) A Ticket is sent after the maximum term set by StubHub for sending purchased tickets has expired; </li>
+		<li>b) The Ticket sent differs from the Offer published, with independence of whether they may be subjectively considered equal or of better value to the Offer published; </li>
+		<li>c) StubHub must enforce the Ticket replacement operation in order to be able to complete a transaction in which the Seller has not complied or has committed error; </li>
+		<li>d) Refund or Reimbursement is made to the Buyer, for any reason in which the Seller is responsible for incompletion of the sale. </li>
+	</ul>
+<p>The penalties applied by StubHub to the Sellers will always have the form of financial charges. These will be done through the means provided by the Seller as guarantee of the sale or on the total amount of sales pending payment to the Seller. Whichever their form, administrative charges will be applied automatically by StubHub, if and when the Seller falls within the non-compliance stipulated as follows. Penalizations will be charged with any applicable Taxes.</p>
+
+<h4>3.11.1 Penalisation for the tardy delivery of Tickets.</h4>
+<p>Tickets sold must be shipped within 72 hours after the available date that you selected when you published the tickets. In case the tickets are sent after this period, the Seller will be automatically penalized for each package that is delivered late. The economic penalisation for tardy delivery may be consulted at the following link: <u><a href="https://www.stubhub.com.au/information/penalties" target="_blank">Penalties</a></u>.</p>
+<p>This charge corresponds to the cost to StubHub for the investigation of the state of the shipment of an order and attending the enquiries of the Buyers. The Seller will receive the value of the order, minus the fee of the sale and the amount of the penalisation for tardy delivery, which is previously indicated. </p>
+<p>This penalty fee will not apply in the following cases: </p>
+	<ul>
+		<li>a) Sales that take place only five (5) days prior to the event. </li>
+		<li>b) Offers made under the Last Minute Program. </li>
+	</ul>
+	
+<h4>3.11.2	Penalisation for shipment of erroneous tickets accepted by the Buyer.</h4>
+<p>When the Tickets sent are not exactly those which have been described in the listing, but the Buyer accepts the tickets that have been sent, then an economic penalty for incorrect Tickets will be applied to the order, which will correspond with the amount discounted by StubHub to the Buyer so that they Buyer might accept the erroneous Tickets. This amount discounted by StubHub for the Buyer as compensation will be solely decided by StubHub and directly relinquished to the Buyer. </p>
+<p>The Seller will therefore receive the value of the sale minus any fee for the sale, and minus the compensation discount awarded to the Buyer (when applicable). If the Buyer does NOT accept the Tickets offered as substitution, the order will be considered as failed and a "failed order" penalty fee will be applied (see section 3.11.3 below). </p>
+<p>The Tickets will be considered as erroneous in the following cases:</p>
+	<ul>
+		<li>Seats in an aisle different from that which was published;</li>
+		<li>Seats in a sector that is different from that which was listed (much like the previous point);</li>
+		<li>Seats located in an area that is higher than that which was listed, independently of the distance to the stage;</li>
+		<li>Any change from Reserved Seating to General Admission and vice versa;</li>
+		<li>Any seats where the perspective of the client to the showground is altered;</li>
+		<li>Separate seats, when they should be together (tickets offered in the same listing);</li>
+		<li>Seats offered as "together" but which in fact are not side-by-side;</li>
+		<li>Restrictions upon the tickets which were not clearly stated upon publication of the offer;</li>
+		<li>Tickets of a different category from that offered, in accordance with the map of the Website.</li>
+	</ul>
+<p>The cases described in the previous points are applied according to the divisions and categories established in the map in Stubhub. In this way, the listings and the Tickets must reflect the divisions and categories of the map of the event as made available by StubHub. If there were no map, the ticket types will be those established by the promoter of the event. </p>
+
+<h4>3.11.3 Penalisations for failed orders.</h4>
+<p>StubHub considers a failed order as the following cases: </p>
+	<ul>
+		<li>Undelivered Tickets</li>
+		<li>Incorrect delivery, the Buyer receives erroneous tickets that they do not accept.</li>
+	</ul>
+<p>When the Seller fails to ship the Tickets or ships erroneous Tickets that the Buyer does not accept, and StubHub has to give a refund to the Buyer or replace the order with another Seller's tickets, the Seller will not receive the total amount of the sale, and must pay StubHub an economic penalty fee for failed order. </p>
+<p>The penalty for failed order will be the result of the difference between the price at which the Tickets were sold and the price of the replacement Tickets, which will be from the same category or better. The minimum amount of the penalisation for Failed Order may be consulted at the following link: <u><a href="https://www.stubhub.com.au/information/penalties" target="_blank">Penalties</a></u>.</p>
+<p>The Seller will be able to ask StubHub for the return of the Ticket that was mistakenly sent, only if the Buyer does not accept said Ticket. The amount due for the return of the Tickets to the Seller will be completely at the Sellers expense. Furthermore, in order to exercise the right to a refund, the Buyer must return the erroneous Tickets to StubHub. </p>
+
+<h3>3.12. Delivery of Tickets by the Seller.</h3>
+<p>The Seller is solely responsible for the pickup of packages for shipment of Tickets that they are offering. Taking into account that delivery processes may vary in accordance with the different delivery services available for use, it is the exclusive responsibility of the Seller to: </p>
+	<ul>
+		<li>Make delivery arrangements within the term set for delivery of the event in question. </li>
+		<li>When a shipping label must be printed, it is the sole responsibility of the Seller to print the label correctly. </li>
+		<li>When shipping label is not required to be printed: Write correctly and legibly any address and contact information for the Sender and Receiver of the package. </li>
+		<li>Place the correct tickets in accordance with the sale within the envelope for delivery. </li>
+		<li>Correctly seal the envelope with the tickets so that it does not accidentally open during the process of delivery. </li>
+		<li>When there is a shipping label: Ensure that the messenger correctly scans the label and therefore correctly registers the pick-up of the envelope. </li>
+		<li>When there is no shipment label: Ensure that the messenger takes note of all information and numbers of the envelopes picked up correctly in the pick up note. </li>
+		<li>Keep any pick up note or receipt of pickup issued by the messaging Service that has taken the envelope. </li>
+	</ul>
+<p>If there is a problem with delivery and the Seller has failed to keep any delivery receipts or the shipment label has been incorrectly scanned, StubHub will be unable to verify that the package has been picked up and therefore will hold the Seller responsible for the failed order and will apply to the Seller the penalty fees mentioned in the corresponding section about failed sales. </p>
+
+<h3>3.13. Electronic Tickets. (e-Tickets)</h3>
+<p>If the Seller fails upon sending or uploading the correct tickets as described in the Offer, StubHub will charge them with the corresponding penalties in accordance with the failed delivery. If the Seller uploads or sends by e-mail an invalid PDF file (or a file of another format) or creates their own file by scanning or photocopying paper tickets, this will cause the cancellation of the sale and the corresponding administrative fees will be charged to the Seller. </p>
+
+<h3>3.14. Immediate delivery of the Tickets.</h3>
+<p>Upon indicating in the Offer that the Tickets are of "immediate delivery", the Seller commits to send them in the 72 hours following the date of the sale. Past these 72 hours, StubHub may cancel the sale with no compensation to the Seller. If the sale is not cancelled, upon the discretion of StubHub, the Seller will be penalized for the delayed delivery of the tickets (the penalization is described in point 3.11.1 of this document). The decision to apply one penalty or another is exclusive to StubHub. Once the "immediate delivery" term is passed (72 hours after the sale), StubHub will decide whether the sale will be cancelled or maintained, applying the corresponding late delivery fee. </p>
+
+<h3>3.15. Amount earned by the Seller in the Transaction.</h3>
+<p>StubHub will credit the amount due from valid completed transactions by the Seller in the method selected at the moment of making the offer. The liquid amount that StubHub will credit the Seller will be that which was determined at the moment of making the Offer in accordance with section 3.7. </p>
+
+<h3>3.16. Term and conditions of payment to Seller for the transaction.</h3>
+<p>The sales for passed events are accounted for on the second and fourth working Monday of each month. The order of payment for these sales will be made two working days after said Monday. The period which it takes for one to receive their payment is dependent upon the chosen payment method.</p>
+	
+<h3>3.17. Closing a StubHub Account.</h3>
+<p>StubHub reserves the right of admission and exclusion from the Website. Any Seller who is not compliant with the contents of the present Terms and Conditions may be excluded from the Website. The Seller has the obligation to complete all pending orders upon closing the account. StubHub reserves the right to cancel any sale of a Seller when the Sellers account is closed. Once the closing of the account is processed, StubHub will settle all payments due to the Seller, after subtracting the applicable penalty fees due. </p>
+
+<h2>4. Ticket purchase.</h2>
+<h3>4.1. Acceptance of an Offer.</h3>
+<p>Any Buyer who is interested in acquiring any of the Tickets offered must expressly accept all Terms and Conditions. Acceptance of the terms of the Offer in question will imply acceptance of the price set by the Seller (the price will be determined solely by the Seller therefore there could be differences in the prices), the cost of the Services rendered by StubHub which will be calculated in accordance with section 3 and any transportation and delivery charges due. </p>
+<p>All sales are final. StubHub, will not be held responsible for the conditions of an event, any modification in the time, venue, line-up, or the suspension of the event that may occur. StubHub, will, when possible, inform said changes to the Buyers. Under no circumstances will payments fulfilled by Buyer be refunded. </p>
+<p>Acceptance of the Offer initiates the rendering of Services by StubHub to the Buyer. Through this acceptance, the Buyer authorizes StubHub to debit the total amount of the transaction through the payment method offered to that effect in the purchase process, including taxes on the StubHub Services, if applicable, effect at the moment of the acceptance which is levied upon the Services rendered by StubHub. </p>
+<p>Buyers are required to pay in the local currency of the Website accessed by the Buyer even if they are buying tickets for an event located in a different country with different local currency.  Therefore, any member of the StubHub group of companies may provide payment processing Services on behalf of any other member of the group.</p>
+
+<h3>4.2. Allocation and confirmation of the purchase.</h3>
+<p>Once the purchase has been made, StubHub will send a pending or confirmation e-mail, depending on the case, to the address facilitated by the Buyer, including the information of the transaction in question. This communication will serve as proof of the transaction between the Buyer and the Seller. Buyers, in the case that they are unable to attend the event, may use the Service once again to Offer the purchased Ticket acquired. </p>
+<p>When the Seller fails to follow the Terms and Conditions, and where possible, StubHub will send the Buyer better tickets concluding the purchase in all effects. If the delivery of other tickets is not possible StubHub would proceed with refunding the Buyer through the same system used for payment of the purchase, the amounts previously charged for the Tickets. </p>
+<h3>4.3. Price of the Tickets for the Buyer.</h3>
+<p>The sale price of the Tickets will be made up of the following factors: </p>
+	<ul>
+		<li>The price of Offer set by the Seller, including any taxes set up the Seller.</li>
+		<li>Shipment costs, if applicable, plus any taxes if applicable</li>
+		<li>Service fee (point 3.4 of these Conditions).</li>
+	</ul>
+<p>The price of Offer set by the Seller is the one posted on the Website related to the event for which a Seller has made an Offer in accordance with these Terms and Conditions.  </p>
+<p>Shipment costs are those costs generated by the delivery to the Buyer of the Tickets acquired through the Website in use of the delivery Services indicated.  </p>
+<p>The Service fee is composed of the fees charged by StubHub for use of the Website by the Buyer that is determined according to the following paragraph. Including any taxes, if applicable.</p>
+
+<h3>4.4. Service fee for the purchase of tickets.</h3>
+<p>The purchase of Tickets incurs a cost for the Service in favour of StubHub for all transactions effectively completed through the Website. This fee of the Services rendered by StubHub will be determined in the following fashion: </p>
+	<ul>
+		<li>The percentage consisting of the fees for the Service rendered by StubHub will be applied to the price of the tickets set by the Seller, plus the shipment costs, if applicable. You can find the exact percentage of the Service fees in the following link:: <a href="https://www.stubhub.com.au/information/commissions">http://www.stubhub.com.au/information/commissions</a></li>
+		<li>The resulting amount will be imposed the Value Added Tax (VAT), if applicable, in force at the time of the transaction. </li>
+		<li>The final cost of the Service will be the sum of the previous factors. </li>
+	</ul>
+<p>Delivery of tickets is subject to the precision and accuracy of the information facilitated by the Buyer (section 1.3 of these Terms and Conditions) and to the availability of the Buyer for reception of the package. In any case, if any expense falls upon StubHub facing a third party delivery Service provider or a second delivery with additional costs was necessary due to incompliance with the aforementioned point, these additional amounts will be charged to the Buyer. </p>
+<h3>4.5. Electronic tickets (e-Tickets)</h3>
+<p>In the case of an e-Ticket purchase, the Buyer will receive these tickets via e-mail. </p>
+<h2>5. Guarantees offered by Stubhub</h2>
+<p>In general terms, StubHub offers the Users of the Services a guarantee of privacy and security in their transactions, confidentiality of their information facilitated and encryption of it through Secure Socket Layer (SSL) of 2048 bits. All processes of transaction payments made to the Users will be processed through the terminals of the financial entities with full guarantee of security and confidentiality. Likewise, digital certification guarantees provided by VerySign will be used for of Services rendered. </p>
+
+<h3>5.1. Guarantees for the Sellers.</h3>
+	<ul>
+		<li>StubHub guarantees the charge of the transactions validly completed by the Seller under the present Terms and Conditions. </li>
+		<li>StubHub guarantees the administration of the delivery of the Tickets in those aspects that do not exclusively depend on the responsibility or will of the Buyer and the Seller. </li>
+		<li>StubHub guarantees to the Seller the possibility to modify the price of the published Offer and withdraw said Offer until the moment when StubHub informs the Seller, via email, that their sale is waiting to be accepted or confirmed, depending on the case. </li>
+	</ul>
+
+<h3>5.2. Guarantees for the Buyers.</h3>
+	<ul>
+		<li>StubHub will do anything they can in order to provide the Buyer with Services that provide trust, security and transparency when it comes to delivering the valid Tickets as well as for the delivery of the said tickets and collection in time for the event. </li>
+		<li>Prior verification of these circumstances and for the cases considered in the preceding paragraph that cannot be fulfilled, StubHub will send the Buyer better tickets concluding the purchase in all effects. If the delivery of other Tickets is not possible StubHub would proceed with refunding the Buyer through the same system used for payment of the purchase, the amounts previously charged for the tickets. If it is not possible to send these other tickets StubHub will proceed to refund the amount satisfied. </li>
+		<li>StubHub guarantees the refund of the amount incurred in the transaction if the event is cancelled. An event will be deemed cancelled when a public communication made by the event organizer does not indicate an alternative date for said event, and the organizer proceeds to refund Ticket purchases. </li>
+		<li>StubHub is not responsible for any changes in an event or incompliance by any performer or event promoter. </li>
+	</ul>
+
+
+<h2>6. Promotional Offers.</h2>
+<p>StubHub may carry out promotions or discounts on their Service fee of which the conditions and range of scope will be duly announced on the Website and which will be regulated at all times by that which is deliberately established. </p>
+
+<h2>7. Communications-Notifications.</h2>
+<p>In general terms, and for better and safer form of notification, all communications related to the Services rendered between StubHub and the Users (Buyers or Sellers), will be carried out in writing and through e-mail, which will serve as proof to the Users of the Services and administration rendered by StubHub.</p>
+<p>However, in exceptional situations, and for better agility in communications or notification that will have to be transmitted, StubHub may proceed to contact the User previously through the telephone number facilitated by the User in the registration form, confirming said communication or notification that is being addressed in the e-mail. In any case, publication of Offers by Sellers and acceptance by Buyers will always be confirmed by StubHub through the valid e-mail facilitated by the User of the Service. </p>
+<p>All communications and notifications made by the Users to StubHub will be considered effective, for all intents and purposes, when directed at StubHub through e-mail to the following address: <a href="mailto:help@stubhub.com.au">help@stubhub.com.au</a>. All notifications made by StubHub to the User will be deemed effective for all intents and purposes when they are made in one of the following methods:</p> 
+	<ul>
+		<li>Delivery by e-mail to the address facilitated by the User in the registration form. </li>
+		<li>Communication by way of a telephone call to the phone number facilitated by the User in the registration form. </li>
+		<li>Through emerging messages on the Website sent during the rendering of Services by StubHub to the User. </li>
+		<li>In this sense, all notifications or communications that are made by StubHub to the User will be considered effective if they are done using the information and through the means previously stated. To this effect, the User states that all information facilitated by them is true and correct and promises to inform StubHub of any changes to the information related to communication purposes. </li>
+	</ul>
+	
+<h2>8. Logistics. Delivery and reception of Tickets.</h2>
+<p>In order to facilitate the transactions, StubHub, as part of the Services, will make a service of delivery and reception of Tickets available to the Users. This Service will be published on the Website and specifically determined by StubHub at the moment of confirmation of transactions by the Users. This Service will be offered by StubHub through a third party delivery and transportation service provider. 
+
+<h2>9. Obligation to make correct use of the Website and its Services.</h2>
+<p>The User commits to use the Website and Services offered therein in accordance with the Law, the Terms and Conditions of the Services and other notifications, regulations of use and instructions made available, as well as the rules of morality and generally accepted good customs as well as public order. 
+<p>To this effect, the User will abstain from using any of the Services with ends that would be detrimental to the rights and interests of third parties, or that could in any way harm, render useless, overburden, deteriorate, or impede the normal use of the Services, computer equipment, or the documents, files, or information stored in any computer equipment (hacking) of StubHub, of any other User or of any third Internet User regarding both hardware and software. 
+
+<h2>10. Obligation to make correct use of the content.</h2>
+<p>In accordance with the preceding, the User commits to use the content made available to Users of the Website, which include but is not limited to the texts, photographs, graphics, images, icons, technology, software, links and other audiovisual and audible content, as well as their graphic design and source code (hereafter, the "Content"), in accordance with the Law, the Terms and Conditions, and other notifications, regulations of use and instructions made aware to the User, as well as morals, generally accepted good customs and public order, and particularly commits to abstain from: 
+	<ul>
+		<li>reproducing, copying, distributing, making available or in any way publicly communicating, transforming or modifying the Contents, unless with authorization by the holder of the corresponding rights, or if it be legally permissible; 
+		<li>delete, manipulate or in any way alter the "copyright" and other identifiable data on the reservation of rights by StubHub, or of its holders, of digital fingerprints, or any other technical means established for their recognition. 
+	</ul>	
+<p>The User must abstain from obtaining, or attempting to obtain, the contents using methods or procedures which differ from those that, according to the case, have been made available or been indicated to this effect in the web pages where the contents are found, or, in general, from those which are commonly used in the Internet to this effect so long as they do not incur a risk of damage or render the Website, the Services, and/or the contents useless. 
+
+<h2>11. Introduction of hyperlinks that allow access to the Website and its Services.</h2>
+<p>The Users, and in general, all persons wishing to establish a hyperlink between their Website and the StubHub Website (hereinafter, the "Hyperlink") must comply with the following conditions: 
+	<ul>
+		<li>the Hyperlink will only allow access to the homepage of the Website, but may not reproduce it in any way or fashion; 
+		<li>no frame will be created over the Website pages; 
+		<li>no false, inexact, or incorrect manifestations or declarations will be made regarding StubHub, its administrators, employees, pages of the Website and the Services offered; 
+		<li>no declaration or suggestion will be made implying that StubHub has authorized the Hyperlink or supervized or assumed in any way the Services offered or rendered by the Website that includes the Hyperlink; 
+		<li>an exception will be made for those signs which form part of the Hyperlink, the Website which includes the Hyperlink will contain no trademark, commercial name, establishment sign, denomination, logo, slogan, or other distinctive sign pertinent to StubHub; and 
+		<li>the webpage that establishes the Hyperlink will not contain information or illicit content, contrary to morality, generally accepted good customs, and public order, and it cannot contain content contrary to any third party rights. 
+		<li>The establishment of the Hyperlink does not implicate in any case the existence of a relation between StubHub, and the proprietor of the web page that establishes the Hyperlink, nor any acceptance or approval by StubHub, of their contents or Services. 
+	</ul>
+	
+<h2>12. Intellectual or Industrial Property. No licensing.</h2>
+<p>All trademarks, trade names or distinctive signs of any kind which appear on the Website are the property of StubHub, or of third parties, so it may never be interpreted that the use of, or access to the Website and/or the Services, attribute to the User any right over the said trademarks, trade names, and/or distinctive signs. 
+<p>Furthermore, the Contents are intellectual property of StubHub, or of third parties, that cannot be considered ceded to the User, nor, by virtue of that which is established in these Terms and Conditions, any of the rights of exploitation that exist or may exist over said Content beyond what is strictly necessary for the correct use of the Website and the Services. 
+
+<h2>13. Exclusion of guarantees and responsibility.</h2>
+<h3>13.1. Exclusion of guarantees and responsibilities for the functioning of the Website and the Services.</h3>
+<p><b>Availability, continuity and fallibility.</b>
+<p>StubHub, does not guarantee the availability, continuity and functioning of the Website and its Services. When it be reasonably possible, StubHub, will previously warn the Users of any interruption in the functioning of the Website and its Services. StubHub, will not guarantee its infallibility and in particular, but not exclusively, that Users may effectively use the Website and its Services, gain access to the different web pages that form the Website or those from which Services are rendered. 
+<p>StubHub, excludes with every extension permissible by Law, any responsibility for damages of any nature that may result from the lack of availability or continuity in the functioning of the Website and its Services, or the deceit of usefulness that Users may attribute to the Website and its Services, the fallibility of the Website and its Services and, in particular, but not exclusively, failure in the access to the different web pages that form part of the Website or those from which Services are rendered. 
+
+<h3>13.2. Exclusion of guarantees and of responsibility for Content.</h3>
+<p><b>Quality.</b>
+<p>StubHub, does not control nor guarantee the absence of viruses or any other elements in the Contents that may alter the Computer (software and hardware), or in the electronic documents or files stored in the System. 
+<p>StubHub, excludes any responsibility for damages of any nature that may be due to the presence of a virus or to the presence of other elements in the contents that may alter the computer system, electronic documents or files of the User. 
+<p><b>Veracity, accuracy, thoroughness and currentness.</b>
+<p>StubHub, does not guarantee the veracity, accuracy, thoroughness and currentness of content. StubHub, excludes any responsibility for damages of any nature that may be due to a lack of veracity, accuracy, exhaustability or currency of content.
+
+<h3>13.3. Exclusion of guarantees and responsibility for the use of the Website, its Services, and its content by Users.</h3>
+<p>StubHub, does not have the obligation to control and does not control the use of the Website, its Services and Content by the Users. In particular, StubHub, does not guarantee that Users make use of the Website, its Services, and its Content in accordance with the present Terms and Conditions nor that they do so diligently and prudently. 
+<p>StubHub, does not have the obligation to verify and does not verify the identity of Users, nor the veracity, accuracy, thoroughness and/or authenticity of the data furnished by Users about themselves to other Users. 
+<p>StubHub, excludes any responsibility for damages of any nature that may result from the use of its Services and contents by Users or may be due to a lack of veracity, accuracy, thoroughness and/or authenticity of the data furnished by Users about themselves to other Users and in particular, but not exclusively, for damages of any nature that may be due to the impersonation of a third party by a User in any sort of communication done through the Website. 
+
+<h2>14. Protection of personal information. Use of cookies.</h2>
+<p>In order to make use of some of the Services, Users must previously provide StubHub with certain personal information (hereinafter, "Personal Information"). StubHub will treat Personal Information in an automated nature, with the finality and under the conditions defined in its Policy of Protection of Personal Information published in the Website.
+<p>StubHub has adopted the levels of security and protection of information required by Law and endeavours to install other additional means and technical measures of protection. However, the User must be aware that the security measures on the Internet are not impregnable. 
+<p>StubHub may use their cookies or third-party cookies when a User navigates through the pages within the Website. The cookies that may be used in the pages of the Website are only associated with the navigator of a particular computer (an anonymous User) and do not in themselves furnish the name and surname of the User. Thanks to cookies, it is possible for StubHub to recognize the navigation system of the registered Users after they have registered the first time, making it unnecessary to register for each visit to access the areas and Services available exclusively to them. The cookies used cannot read cookie files created by other providers. Users may configure their navigator in order to be informed on screen of the reception of cookies and to impede the installation of cookies in their hard drive. Please consult the instructions and manuals of your navigator to expand this information. 
+<p>The cookies used in the pages of the Website may be served by StubHub, in which case they are served from the different servers operated by them, or by the servers of determined third parties that render the Service and serve cookies for StubHub, (for example, the cookies that are used to serve the publicity and determined Content and those which make the User visualize the publicity or certain Content at the time, frequency and predetermined form). Additionally, for more information about Cookies used by StubHub, the User can consult the <a href="https://www.stubhub.com.au/information/cookies">Cookie Policy</a>
+
+<h2>15. Removal and suspension of Services.	</h2>
+<p>StubHub, may remove or suspend Services at any time and without prior warning to those Users that are not compliant with the present Terms and Conditions. 
+
+<h2>16. Duration and termination.</h2>
+<p>Rendering of Services of the Website as well as the other Services provided, has, in principle, an indefinite term. StubHub, however, is authorized to terminate or suspend the Website Services and/or any other Services, at any moment. When reasonably possible, StubHub will previously warn the termination or suspension, as soon as possible, of the rendering of Services of the Website and of the other Services provided. 
+
+<h2>17. Applicable legislation and jurisdiction.</h2>
+<p>The provided Services of this Website and the present Terms and Conditions are regulated at all times and in all aspects by Spanish Law and Spanish legislation. For consumers, please note that the mandatory consumer protection provisions of the law of the member state in which you reside will also apply. Except for legal obligation which will result in the application of another jurisdiction, the Parties, with expressed resignation of their own privileges, will submit any controversy pertaining to the compliance and interpretation of the present Terms and Conditions to the Jurisdiction and Courts of the city of Bilbao, Spain. However, the parties will make all reasonable efforts to solve any conflicts in a friendly manner.</p>
+
+<hr style="border: none; border-top: 1px solid #D8D8D8;">
+<p>July 1, 2019 We’ve updated the User Agreement</p>
+<p><strong>User agreement key changes include</strong>:</p> 
+<p><strong>Contracting entity</strong> - we changed Section 2 to reflect that a customer’s contracting entity may vary according to the location of the event for which they’re purchasing or selling a ticket.</p>
+<p>By continuing to use StubHub and our services you accept the updated agreements, notices and policies.</p>
+<p>The amendments to the User Agreement introduced on July 1, 2019 is effective for all users on August 1, 2019.</p>
+  </div>
+
+  
+
+  </div>
+
+  <footer id="footer">
+    <div class="container" >
+  <!--Inicio inc/footer -->
+  <div class="wrapper footer">
+    <div class="row-fluid">
+      <div class="span8">
+        <!--Inicio En el mundo -->
+
+<!--fin En el mundo -->
+
+        <!--Inicio acerca de -->
+        <div class="footer_block hidden-phone">
+          
+
+        </div>
+        <!--fin acerca de -->
+        <!--Inicio follow -->
+        <div class="footer_block hidden-phone">
+          
+        </div>
+        <!--fin follow -->
+        <!--Inicio footerlegal -->
+        <div class="footer_block">
+          <div class="footer_list">
+  <ul class="lst-legal">
+    <li>
+  <a href="https://www.stubhub.com.au/information/privacidad" target="_blank">
+    Privacy
+  </a>
+</li>
+    <li>
+  <a href="https://www.stubhub.com.au/information/legal" target="_blank">
+    Terms and Conditions
+  </a>
+</li>
+    
+
+    
+<li>
+  <a href="https://www.stubhub.com.au/information/cookies" target="_blank">
+    Cookie Policy
+  </a>
+</li>
+
+    
+    
+<li>
+  <a href="https://www.stubhub.com.au/fanzone" target="_blank">
+    FanZone
+  </a>
+</li>
+
+
+    
+
+    
+
+  </ul>
+</div>
+
+        </div>
+        
+        <!--Fin footerlegal -->
+      </div>
+      <div class="span4">
+        
+        
+      </div>
+    </div>
+  </div>
+  <span class="copyright">Copyright © 2009-2021 StubHub. All Rights Reserved.</span>
+
+</div>
+
+  </footer>
+  
+
+  <div id="fb-root"></div>
+
+  <!-- SHARED ELEMENTS -->
+  
+
+
+  
+    
+<!-- INBENTA CONFIGURATION -->
+
+    <div id="inbentaConfig"
+         data-url="https://ticketbis.inbenta.com/jsonp/inbenta.js"
+         data-countrycode="AU"
+         data-showbanner="true"
+         data-bannerdelay="none"
+         data-autoform="false"
+         data-chat-escalation="false"
+         data-contact-form="true"
+         data-dynamic-replies="true">
+    </div>
+
+<!-- /INBENTA CONFIGURATION -->
+
+
+
+  
+  <div class="cookiesMsg" data-controller="CookiesMsgCtrl">
+    <div class="innerContainer">
+      <div class="container">
+        <a id="closeCookiesMsg" data-qa="cookies">
+          <i class="fa fa-times-circle fa-2x"></i>
+        </a>
+        We use cookies to improve our web services. If you continue browsing, we consider that you agree to its use. Learn more about <a href="https://www.stubhub.com.au/information/cookies" class="cookiesPolicyLink">Cookie Policy</a> here.
+      </div>
+    </div>
+  </div>
+
+
+  <!-- /SHARED ELEMENTS -->
+
+  <!-- JSRESOURCES -->
+  
+
+  <script type="text/javascript">
+  var blaze = {
+    //allowScripts: document.cookie.indexOf('cookiesAccept') != -1,
+    allowScripts: true,
+    base_url: 'https://www.stubhub.com.au/',
+    linkCookiesAfiliados:'https://secure.stubhub.com.au/utilidades/cookiesAfiliados',
+    snapEngageToken:'',
+    linkLoginAsync: 'https://secure.stubhub.com.au/login/loginUser',
+    logged: false,
+    linkItknAsync: 'https://secure.stubhub.com.au/utilidades/setItknCookie'
+  };
+ </script>
+
+
+  
+  <script type="text/javascript" src="https://www.stubhub.com.au/assets/desktop/base-0ca4523e11ebf8ffe5e618d2753b096e.js" ></script>
+
+  <script type="text/javascript">
+    // Page Load
+    $(function() {
+      generalMod.inicializar();
+    });
+
+    generalMod.cargaDespuesDeCookies(function() {
+      snapEngageMod.cargar();
+    });
+
+    generalMod.cargaDespuesOnload(function() {
+    
+    });
+  </script>
+
+  <script type="text/javascript">
+    blaze = _.extend(blaze || {}, {
+      alwaysCookiesMsg: true
+    });
+
+    $(function(){
+      informationMod.inicializar();
+    });
+  </script><script type="text/javascript" defer="1">
+  var $eventRedesign = $('.event-redesign-b.mobile');
+  if ($eventRedesign.length){
+    $('.hamburger a').on('click', function(ev) {
+      ev.preventDefault();
+    });
+
+    var $myAccountBtn = $eventRedesign.find('.myaccount-menu a');
+    var classNameModalOpened = 'modal-opened';
+    $myAccountBtn.on('click', function(ev) {
+      if (!isUserLogged()){
+        ev.preventDefault();
+        if ($eventRedesign.hasClass(classNameModalOpened)) {
+          $eventRedesign.removeClass(classNameModalOpened);
+        } else {
+          $eventRedesign.addClass(classNameModalOpened);
+        }
+      }
+    });
+
+    var $modalLogin = $eventRedesign.find('.modal-login');
+    $modalLogin.find('.si-fine-close, .modal-veil').on('click', function(ev) {
+      ev.preventDefault();
+      $eventRedesign.removeClass(classNameModalOpened);
+    });
+  }
+
+  $('.search>a').on('click', function(ev) {
+    ev.preventDefault();
+    $(".searchbox").addClass("isVisible");
+  });
+
+  $('.searchbox a').on('click', function(ev) {
+    ev.preventDefault();
+    $(".searchbox").removeClass("isVisible");
+  });
+/*
+  $(".searchbox input").focus(function() {
+    $(".searchbox").addClass("typeaheadisVisible");
+    $(".typeahead").addClass("isVisible");
+  }).blur(function () {
+    $(".searchbox").removeClass("typeaheadisVisible");
+    $(".typeahead").removeClass("isVisible");
+  });
+*/
+  $('.toogle-menu').on('click', function() {
+    $("body").toggleClass("open-menu overflow-hidden");
+  });
+
+  $('.category-menu .main-menu ul li').on('click', function(ev) {
+    ev.stopPropagation();
+    if ($("body").hasClass("open-menu")) {
+      var expandable = $(this).children("ul").length > 0;
+      if (expandable) {
+        ev.preventDefault();
+        $(this).toggleClass("opened");
+      }
+    }
+  });
+
+  function isUserLogged() {
+    return $("body").hasClass("user-logged-in");
+  }
+
+  function doneResizing() {
+    var ancho = $(window).width();
+    if (ancho <= 960) {
+      $('.parent-menu-item').off('click'); //Remove all previous event listeners
+      $('.parent-menu-item').on('click', function(e) {
+        // Just trigger login modal if required
+        if (!isUserLogged() && $(this).find("[data-login-modal]").length) {
+          return;
+        }
+        // Otherwise toggle submenu
+        e.preventDefault();
+        $(this).next($('.sub-menu')).slideToggle().toggleClass('open-submenu');
+        $(this).children().children().toggleClass('rotate');
+      })
+    } else {
+      $('.parent-menu-item').off('click'); //Remove all previous event listeners
+      $("body").removeClass("open-menu overflow-hidden");
+      $('.category-menu .main-menu ul li').removeClass("opened");
+    }
+    $('.sub-menu').attr("style", "");
+  }
+
+  $(function () {
+    var id;
+    $(window).resize(function () {
+      clearTimeout(id);
+      id = setTimeout(doneResizing, 0);
+    });
+    doneResizing();
+  });
+</script>
+
+  
+
+
+  <!-- /JSRESOURCES -->
+<script type="text/javascript" >var _cf = _cf || [];  _cf.push(['_setFsp', true]);  _cf.push(['_setBm', true]);  _cf.push(['_setAu', '/clientlibs/23098cbedno219dd5a0d43b0acfa95c']); </script><script type="text/javascript"  src="https://www.stubhub.com.au/clientlibs/23098cbedno219dd5a0d43b0acfa95c"></script></body>
+
+<!-- Mirrored from www.stubhub.com.au/information/legal by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 May 2021 23:05:34 GMT -->
+</html>
